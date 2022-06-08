@@ -112,7 +112,7 @@ function App() {
     NFT_NAME: "boblintownwtf",
     SYMBOL: "BOBLIN",
     MAX_SUPPLY: 10000,
-    WEI_COST: 0,
+    WEI_COST: 75000000000000000,
     DISPLAY_COST: 0.01,
     GAS_LIMIT: 285000,
     MARKETPLACE: "OpenSea",
@@ -129,7 +129,8 @@ function App() {
     console.log("Gas limit: ", totalGasLimit);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
     setClaimingNft(true);
-    blockchain.smartContract.methods
+    
+    .methods
       .mint(blockchain.account, mintAmount)
       .send({
         gasLimit: String(totalGasLimit),
