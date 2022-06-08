@@ -105,8 +105,8 @@ function App() {
     CONTRACT_ADDRESS: "0x509a85b0ed2e62b39aa9b41d0113217a6a940c5c",
     SCAN_LINK: "https://etherscan.io/address/0x509a85b0ed2e62b39aa9b41d0113217a6a940c5c",
     NETWORK: {
-      NAME: "boblintownwtf",
-      SYMBOL: "BOBLIN",
+      NAME: "Ethereum",
+      SYMBOL: "ETH",
       ID: 1,
     },
     NFT_NAME: "boblintownwtf",
@@ -114,10 +114,10 @@ function App() {
     MAX_SUPPLY: 10000,
     WEI_COST: 0,
     DISPLAY_COST: 0.01,
-    GAS_LIMIT: 0,
+    GAS_LIMIT: 285000,
     MARKETPLACE: "OpenSea",
     MARKETPLACE_LINK: "https://opensea.io/collection/boblintownwtf",
-    SHOW_BACKGROUND: false,
+    SHOW_BACKGROUND: true,
   });
 
   const claimNFTs = () => {
