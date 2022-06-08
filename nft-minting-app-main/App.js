@@ -131,7 +131,7 @@ function App() {
     setClaimingNft(true);
     
     .methods
-      .mint(blockchain.account, mintAmount)
+      .publicMint(blockchain.account, mintAmount)
       .send({
         gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,
