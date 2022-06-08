@@ -102,8 +102,8 @@ function App() {
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: "",
-    SCAN_LINK: "",
+    CONTRACT_ADDRESS: "0x509a85b0ed2e62b39aa9b41d0113217a6a940c5c",
+    SCAN_LINK: "https://etherscan.io/address/0x509a85b0ed2e62b39aa9b41d0113217a6a940c5c",
     NETWORK: {
       NAME: "Ethereum",
       SYMBOL: "ETH",
